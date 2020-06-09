@@ -7,14 +7,28 @@ If you use DR2019, please cite :
 
 ### How to run
 
-Go into the DeepRare2019 folder and type >>python Run_DR_2019.py. The main function takes in a folder all the images, show results and record the saliency map in a different folder. The result here is the raw data which will not let you reproduce exactly the paper results. you still need to low-pass filter the results and, for natural images datasets (such as MIT1003 ...), add also a centred Gaussian. 
+Just type :
+
+```python
+>>python run_DR_2019.py
+```
+
+The main function takes in a folder all the images, show results and record the saliency map in a different folder. 
+
+### Paper results reproduction
+
+The result from this code is the raw data which will not let you reproduce exactly the paper results. For this purpose you still need to low-pass filter the results and, for natural images datasets (such as MIT1003 ...), add also a centred Gaussian. For O3 and P3 datasets, centred Gaussian is not used. 
+The codes used for smoothing and adding centred Gaussian are the Matlab codes from the MIT benchmark website. This website moved to Tubingen and the tools might have changed a little. 
 
 ### Requirements
+
+The codes were tested with the following configuration: 
 
 * Python 3.6.10
 * Numpy 1.11.6
 * OpenCV 4.1.2
-* Keras 2.2.0 with Tensorflow 1.5.0
+* Keras 2.2.0
+* Tensorflow 1.5.0
 * Matplotlib 3.1.2
 
 ### Licence
@@ -24,3 +38,8 @@ This code is free to use, modify or integrate in other projects if the final cod
 ### Waranty
 
 This code is provided 'as is' with no waranty or responsability from the authors or their institution. 
+
+### Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+‎ 
