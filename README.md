@@ -14,7 +14,8 @@ Go into the DeepRare2019 folder and type >>python Run_DR_2019.py. The main funct
 * Python 3.6.10
 * Numpy 1.11.6
 * OpenCV 4.1.2
-* Keras 2.2.0 with Tensorflow 1.5.0
+* Keras 2.2.0
+* Tensorflow 1.5.0
 * Matplotlib 3.1.2
 
 ### Licence
