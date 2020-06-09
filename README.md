@@ -39,7 +39,5 @@ This code is free to use, modify or integrate in other projects if the final cod
 
 This code is provided 'as is' with no waranty or responsability from the authors or their institution. 
 
-### Contributions to the project
+### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-‎ 
